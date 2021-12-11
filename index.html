@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./public/images/favicon-32x32.png">
+  <!-- Custom css -->
+  <link rel="stylesheet" href="./public/CSS/style.css">
+ 
+  <!-- Font awesome cdn -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+
+</head>
+
+<body>
+  <header>
+    <img src="./public/images/logo.svg" alt="Brand">
+    <nav>
+      <span>Features</span>
+      <span>Team</span>
+      <span>Sign In</span>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="benefits" aria-label="benefits">
+      <div id="benefitsD">
+        <h1>All your files in one secure location, accessible anywhere.</h1>
+        <p>Fylo stores your most important files in one secure location.
+          Access them wherever you need, share and collaborate with friends,
+          family, and co-workers.
+        </p>
+
+        <form action="/">
+        <input type="email" aria-label="Address" placeholder="Enter your email..." autocomplete="off">
+        <input type="submit" value="Get Started">
+        </form>   
+      </div>
+     
+      <img src="./public/images/illustration-1.svg"  alt="illustration-1">
+    </section>
+
+    <div class="between"></div>
+    <section class="features" aria-label="features">
+      <div id="featuresD">
+        <h1>Stay productive, wherever you are</h1>
+        <p>Never let location be an issue when accessing your files. Fylo has you
+          covered for all of your file storage needs.
+        </p>
+        <p>Securely share files and folders with friends, family and colleagues for
+          live collaboration. No email attachments required!
+        </p>
+        <a href="#">See how Fylo works
+          <img src="./public/images/icon-arrow.svg" alt="icon-arrow">
+        </a>
+
+        <div class="testimonials" title="testimonial">
+          <div class="comment">
+            <svg width="13" height="12" xmlns="http://www.w3.org/2000/svg"><text transform="translate(-34 -25)" fill="#07043B" fill-rule="evenodd" font-family="Helvetica" font-size="45"><tspan x="33" y="56">“</tspan></text></svg>
+            <br><br> Fylo has improved our team productivity by an order of magnitude. Since
+            making the switch our team has become a well-oiled collaboration machine.
+          </div>
+          
+          <div class="ceo-info">
+            <img src="./public/images/avatar-testimonial.jpg" alt="Kyle Burton image">
+            <div class="info">
+              <p>Kyle Burton</p>
+              <span>Founder & CEO, Huddle</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="./public/images/illustration-2.svg"  alt="illustration-2">
+    </section>
+
+    <section class="sign-up" aria-label="sign-up-info">
+       <div id="sign-up-info">
+         <h2>Get early access today</h2>
+         <p>It only takes a minute to sign up and our free starter tier is extremely generous.
+          If you have any questions, our support team would be happy to help you.
+        </p>
+       </div>
+       <form action="/" title="sign up">
+       <input id="email" type="email" aria-label="Address" placeholder="email@example.com" autocomplete="off">
+       <br><br><input id="submit" type="submit" value="Get Started For Free"></form>
+    </section>
+
+  </main>
+  
+  
+  <footer>
+    <img src="./public/images/logo.png" alt="Brand">
+    <div>
+      <div class="contact">
+         <p><img src="./public/images/icon-phone.svg" alt="icon phone">
+          &nbsp; &nbsp;Phone: +1-543-123-4567
+        </p>
+         <p><img src="./public/images/icon-email.svg" alt="icon email">
+          &nbsp; &nbsp;example@fylo.com
+        </p>
+      </div>
+      
+      <div class="links"> 
+        <div class="links1">
+          <p>About Us</p>
+          <p>Jobs</p>
+          <p>Press</p>
+          <p>Blog</p>
+
+        </div>
+        <div class="links2">
+          <p>Contact Us</p>
+          <p>Terms</p>
+          <p>Privacy</p>
+        </div>
+      </div>
+
+      <div class="social-m">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+      </div>
+    </div>
+  </footer>
+  
+
+</body>
+
+</html>

@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1440px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: hsl(238, 22%, 44%);
+}
+
+/* Formating header section */
+header {
+    font-family: "Raleway", sans-serif;
+    padding: 63px 0 63px 55px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav>span {
+    margin-right: 55px;
+}
+
+/* Formating header section ↑↑↑↑↑↑ */
+
+
+section {
+    padding: 63px 55px;
+    display: flex;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    color: hsl(243, 87%, 12%);
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+a {
+    padding-bottom: 2px;
+    text-decoration: none;
+    color: hsl(170, 45%, 43%);
+    border-bottom: solid 1px;
+}
+
+a:hover {
+    color: hsl(170, 45%, 50%);
+    border-color: hsl(170, 45%, 50%);
+
+}
+
+/* Fromating first section (.benefits) */
+.benefits {
+    margin-bottom: 100px;
+}
+
+.benefits>img {
+    width: 50%;
+}
+
+#benefitsD {
+    padding: 65px 50px 63px 0;
+}
+
+input[type="email"] {
+    width: 371px;
+    padding: 12px 20px;
+    outline-color: rgb(247, 111, 134);
+}
+
+input[type="submit"] {
+    margin-left: 3%;
+    width: 216px;
+    padding: 14px 50px;
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    border-radius: 5px;
+    color: hsl(240, 75%, 98%);
+}
+
+input[type="submit"]:hover {
+    background-color: hsl(224, 73%, 71%);
+    cursor: pointer;
+}
+
+::placeholder {
+    color: hsl(0, 0%, 75%);
+}
+/* Fromating first section (.benefits) ↑↑↑↑↑↑ */
+
+
+/* Add curve background to the second section (.features) */
+.between {
+    content: url(../images/bg-curve-desktop.svg);
+}
+
+
+/* Fromating second section (.features) */
+.features {
+    background-color: hsl(240, 75%, 98.5%);
+}
+
+.features>img {
+    width: 50%;
+}
+
+#featuresD>p {
+    width: 500px;
+}
+
+
+.testimonials {
+    width: 332px;
+    margin-top: 40px;
+    padding: 32px;
+    background-color: white;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.ceo-info {
+    margin-top: 20px;
+    display: flex;
+
+}
+
+.ceo-info>img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.info>p {
+    font-size: 11px;
+    font-weight: 700;
+    margin: 2px 0 0;
+    color: hsl(243, 87%, 12%);
+}
+
+.info>span {
+    font-size: 9px;
+}
+/* Fromating second section (.features) ↑↑↑↑↑↑ */
+
+
+/* Fromating third section (.sign-up) */
+.sign-up {
+    padding-top: 100px;
+    background-color: hsl(238, 22%, 44%);
+    color: hsl(240, 75%, 98.5%);
+    justify-content: space-between;
+}
+
+
+#sign-up-info, .sign-up>form {
+    width: 532px;
+}
+
+#email {
+    width: 450px;
+}
+
+#submit {
+    margin-left: 0;
+}
+
+
+#sign-up-info>p {
+    font-size: 16px;
+}
+/* Fromating third section (.sign-up) ↑↑↑↑↑↑ */
+
+
+/* Fromating footer section */
+footer {
+    padding: 100px 55px 63px;
+    background-color: hsl(243, 87%, 12%);
+    ;
+}
+
+footer>div {
+    display: flex;
+    margin-top: 15px;
+    font-size: 16px;
+    color: hsl(240, 75%, 90%);
+
+}
+
+.contact, .social-m {
+    width: 25%;
+}
+
+.links {
+    width: 40%;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.links1>p:hover, .links2>p:hover {
+    color: hsl(224, 93%, 58%);
+
+}
+
+i {
+    margin-right: 15px;
+    padding: 10px 12px;
+    border: solid 1px hsl(240, 75%, 90%);
+    border-radius: 50%;
+}
+
+i:hover {
+    color: hsl(224, 93%, 58%);
+    border-color: hsl(224, 93%, 58%);
+    cursor: pointer;
+}
+/* Fromating footer section ↑↑↑↑↑↑ */
+
+
+/*Customize styling for screen that has less or equal 375 px in width*/
+@media all and (max-width:375px) {
+    body {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    a {
+        font-size: 12px;
+    }
+
+    section {
+        padding: 0;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    /* Header section */
+    header {
+        padding: 24px 0 50px 24px;
+        font-size: 12px;
+    }
+
+    header>img {
+        width: 80px;
+        height: 28px;
+    }
+
+    nav>span {
+        margin-right: 24px;
+    }
+    /* Header section ↑↑↑↑↑ */
+
+
+    /* Benefits and features sections */
+    .benefits, .features {
+        flex-direction: column-reverse;
+        padding: 50px 24px 40px;
+        margin: 0;
+    }
+
+    .benefits>img, .features>img {
+        width: 100%;
+    }
+
+    input[type="email"] {
+        width: 100%;
+
+    }
+
+    input[type="submit"] {
+        margin: 15px 0;
+        width: 100%;
+    }
+
+    #featuresD>h1 {
+        margin-top: 60px;
+        font-size: 18px;
+    }
+
+    #featuresD>p {
+        width: 100%;
+        text-align: left;
+    }
+
+    .testimonials {
+        text-align: left;
+    }
+    /* Benefits and features sections ↑↑↑↑↑ */
+
+    /* Change curve background between benefits and features sections */
+    .between {
+        content: url(../images/bg-curve-mobile.svg);
+    }
+
+    /* Sign-up section */
+    .sign-up {
+        flex-direction: column;
+        padding: 60px 24px;
+    }
+
+    #sign-up-info, .sign-up>form {
+        width: 100%;
+    }
+
+    #sign-up-info>p {
+        font-size: 14px;
+    }
+
+     /* Form elements inside sign-up section*/
+    #email, #submit {
+        margin: 10px 0 0;
+        width: 85%;
+    }
+    #email+br {
+        display: none;
+    }
+    /* Sign-up section ↑↑↑↑↑*/
+
+     /* Footer section */
+     footer>div {
+        flex-direction: column;
+    }
+
+    .contact, .social-m {
+        padding: 40px 0;
+        width: 100%;
+    }
+
+    .links {
+        width: 100%;
+        display: grid;
+        grid-template: auto auto / auto;
+        grid-row-gap: 50px;
+
+    }
+
+    .links1>p:hover, .links2>p:hover {
+        color: hsl(224, 93%, 58%);
+
+    }
+
+    .social-m {
+        text-align: center;
+    }
+    /* Footer section ↑↑↑↑↑↑*/
+}
