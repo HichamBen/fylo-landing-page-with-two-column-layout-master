@@ -6,10 +6,11 @@
 }
 
 body {
-    width: 1440px;
+    width: 100vw;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     color: hsl(238, 22%, 44%);
+    overflow-x: hidden;
 }
 
 /* Formating header section */
@@ -89,8 +90,8 @@ input[type="email"] {
 
 input[type="submit"] {
     margin-left: 3%;
-    width: 216px;
-    padding: 14px 50px;
+    width: 150px;
+    padding: 14px 0;
     background-color: hsl(224, 93%, 58%);
     border: none;
     border-radius: 5px;
@@ -195,7 +196,6 @@ input[type="submit"]:hover {
 footer {
     padding: 100px 55px 63px;
     background-color: hsl(243, 87%, 12%);
-    ;
 }
 
 footer>div {
